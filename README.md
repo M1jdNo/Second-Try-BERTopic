@@ -11,6 +11,10 @@ pipeline_tag: text-classification
 This is a [BERTopic](https://github.com/MaartenGr/BERTopic) model. 
 BERTopic is a flexible and modular topic modeling framework that allows for the generation of easily interpretable topics from large datasets. 
 
+* Trained on ~1_000_000 Wikipedia pages (first paragraph of each page).
+* Data was retrieved from: https://huggingface.co/datasets/Cohere/wikipedia-22-12-en-embeddings
+
+
 ## Usage 
 
 To use this model, please install BERTopic:
@@ -27,6 +31,12 @@ topic_model = BERTopic.load("MaartenGr/Wikipedia")
 
 topic_model.get_topic_info()
 ```
+
+## Topics 2D
+
+The top 50 topics visualized and reduced to 2-dimensional space using cuML's UMAP:
+
+!["visualization.png"](visualization.png)
 
 ## Topic overview
 
