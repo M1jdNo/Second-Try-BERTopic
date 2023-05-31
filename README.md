@@ -39,6 +39,8 @@ The top 50 topics visualized and reduced to 2-dimensional space using cuML's UMA
 
 !["visualization.png"](visualization.png)
 
+To generate this image, you can follow along with this tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1W7aEdDPxC29jP99GGZphUlqjMFFVKtBC?usp=sharing)
+
 ## Topic overview
 
 * Number of topics: 2377
