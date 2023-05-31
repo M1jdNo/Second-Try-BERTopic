@@ -21,13 +21,14 @@ To use this model, please install BERTopic:
 
 ```
 pip install -U bertopic
+pip install -U safetensors
 ```
 
 You can use the model as follows:
 
 ```python
 from bertopic import BERTopic
-topic_model = BERTopic.load("MaartenGr/BERTopioc_Wikipedia")
+topic_model = BERTopic.load("MaartenGr/BERTopic_Wikipedia")
 
 topic_model.get_topic_info()
 ```
